@@ -109,19 +109,19 @@
 
         NUM {
             bindings = <
-&kp MINUS                    &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                                               &kp CARET        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS
-&kp SLASH                    &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp ASTERISK           &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PERCENT
-&mt LEFT_SHIFT LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp PERIOD             &kp EQUAL                    &kp COLON       &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp BACKSLASH
-&trans                       &trans             &trans          &trans                &trans                 &trans                       &trans          &trans                                                              &kp PIPE
+&kp MINUS                     &kp CARET         &kp PLUS         &kp ASTERISK  &kp LEFT_PARENTHESIS                                               &trans           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp COLON
+&kp SLASH                     &kp LEFT_BRACKET  &kp HASH         &kp DOLLAR    &kp DOUBLE_QUOTES     &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PERCENT
+&mt LEFT_SHIFT RIGHT_BRACKET  &kp BACKSLASH     &kp RIGHT_BRACE  &kp PIPE      &kp PERIOD            &kp UNDER                    &trans          &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp BACKSLASH
+&trans                        &trans            &trans           &trans        &trans                &trans                       &trans          &trans                                                              &trans
             >;
         };
 
         ARROW {
             bindings = <
-&trans  &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                      &trans  &trans  &trans    &trans   &trans
-&trans  &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &trans  &trans      &trans  &trans  &trans  &kp HOME  &kp END  &trans
-&trans  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans  &trans      &trans  &trans  &trans  &trans    &trans   &trans
-&trans  &trans                  &trans          &trans                   &trans  &trans      &trans  &trans                             &trans
+&trans  &kp LC(LS(TAB))  &kp UP_ARROW    &kp LC(TAB)      &trans                      &trans  &trans  &trans    &trans   &trans
+&trans  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans      &trans  &trans  &trans  &kp HOME  &kp END  &trans
+&trans  &kp LA(LS(TAB))  &trans          &kp LA(TAB)      &trans  &trans      &trans  &trans  &trans  &trans    &trans   &trans
+&trans  &trans           &trans          &trans           &trans  &trans      &trans  &trans                             &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
