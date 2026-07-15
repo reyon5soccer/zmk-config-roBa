@@ -58,9 +58,9 @@
             key-positions = <18 19>;
         };
 
-        escape {
-            bindings = <&kp ESCAPE>;
-            key-positions = <19 20>;
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <0 1>;
         };
     };
 
